@@ -1,6 +1,6 @@
-list1 = int(input("Enter the numbers"))
-list2 = []
-list3 = list2.append(list1)
-num = int(input("Enter the number for divisibility "))
-result = list(filter())
-print("Numbers that are divisible by",num,"are",result)
+lower = int(input("Enter the lower limit"))
+upper = int(input("Enter the upper limit"))
+num = int(input("Enter the number"))
+for i in range(lower,upper+1):
+    if i%num == 0:
+        print(i)
